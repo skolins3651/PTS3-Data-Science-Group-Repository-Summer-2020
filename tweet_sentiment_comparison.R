@@ -65,7 +65,7 @@ sentiment_colors <- c("March 17, 11-12 AM" = "black", "February 18, 6-7 PM" = "r
 ggplot(tweet_sentiment_Mar17, aes(ave_sentiment, color = "March 17, 11-12 AM")) + geom_density() +
   geom_density(data = tweet_sentiment_Feb18, aes(ave_sentiment, color = "February 18, 6-7 PM")) +
 geom_density(data = tweet_sentiment_Apr03, aes(ave_sentiment, color = "April 3, 4-5 PM")) +
-geom_density(data = tweet_sentiment_May01, aes(ave_sentiment, color = " May 1, 2-3 PM")) +
+geom_density(data = tweet_sentiment_May01, aes(ave_sentiment, color = "May 1, 2-3 PM")) +
 geom_density(data = tweet_sentiment_June01, aes(ave_sentiment, color = "June 1, 11-12 AM")) +
   geom_density(data = tweet_sentiment_jul01, aes(ave_sentiment, color = "July 1, 11-12 AM")) +
   labs(x = "Sentiment Score", y = "Density", color = "Legend") +
